@@ -1,0 +1,20 @@
+@mixin hide-text {
+	text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin reset-a {
+	display: block;
+	text-decoration: none;
+}
+@mixin opacity($percent){
+	opacity: $percent
+}
+
+@mixin clearFloat {
+    clear: both;
+}
+@mixin hover{
+	cursor: pointer;
+}

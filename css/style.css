@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+	自訂css如下:
+*/
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    float: left;
+}
+
+.header h1 a {
+    display: block;
+    background-image: url(../img/logo.png);
+    width: 173px;
+    height: 51px;
+    /*圖片取代文字*/
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: #00cc99;
+    padding-bottom: 10px;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #00cc99;
+}
+
+.topbar {
+    padding-top: 10px;
+    height: 30px;
+}
+
+.topbar ul {
+    float: right;
+}
+
+.topbar li {
+    float: left;
+    margin-right: 20px;
+}
+
+.topbar li img {
+    float: left;
+}
+
+.topbar li a {
+    display: block;
+    text-decoration: none;
+    color: #00cc99;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.banner {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.courseList {
+    width: 280px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    float: left;
+    text-align: center;
+    box-shadow: 0px 0px 1px 0px gray;
+    padding: 20px 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.courseList p {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.feature {
+    list-style: disc;
+    padding-top: 10px;
+    padding-left: 20px
+}
+
+.feature li {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.difference {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+th {
+    background: #f7f7f7;
+}
+
+th,
+td {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    text-align: left;
+    padding: 10px;
+}
+
+.difference span {
+    color: #00a67d;
+}
+
+.infoForm {
+    background-image: url(../img/form_bg.png);
+    background-repeat: repeat-x;
+    background-color: #009771;
+    padding: 30px;
+}
+
+.info {
+    width: 400px;
+    float: right;
+    padding: 0px 20px;
+}
+
+.info input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+}
+
+.submit_btn {
+    background-color: #00cc99;
+    float: right;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    color: white;
+}
+
+.submit_btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #00cc99;
+}
+
+footer {
+    padding: 30px;
+}
+
+.contact {
+    float: right;
+}
+
+.contact p {
+    margin: 5px;
+}
+
+footer span {
+    color: red;
+}
